@@ -1,0 +1,183 @@
+
+h1{
+
+    color:black;
+    font-family: sans-serif;
+    /*margin-left:750px;*/
+    align-content: center;
+}
+
+p{
+
+    color:darkgray;
+    font-family: sans-serif;
+
+}
+
+h2{
+
+    color:black;
+    font-family: sans-serif;
+
+}
+
+h3{
+
+    color:black;
+    font-family: sans-serif;
+
+}
+h4{
+
+    color:black;
+    font-family: sans-serif;
+
+}
+
+body{
+
+    background-color: black;
+
+}
+
+/*.header * {
+
+   border:solid;
+
+}*/
+
+.header {
+
+    background-color:lightgrey;
+    
+   /* display: flex;
+    justify-content: space-between;*/
+
+}
+
+.menu {
+
+    background-color:black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.menu{
+
+    margin-right: 50px;
+
+}
+
+.grid {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.footer {
+
+    margin-top: 400;
+    display:flex;
+    justify-content: flex-end;
+
+}
+
+.gemClicker {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.fun {
+
+    display: flex;
+    flex-wrap: wrap;
+    
+    margin-top: 75;
+    
+    color: white;
+    
+    border-radius: 50px;
+    background-color: #100b3a;
+    padding:20px;
+
+
+
+}
+
+.fun h2 {
+
+    color: white;
+
+}
+
+a:link {
+
+    color: white;
+
+}
+
+a:visited {
+
+    color: grey;
+
+}
+
+.item {
+
+    position: relative;
+    border-radius: 50px;
+    background-color: #0d002c;
+    padding:20px;
+
+}
+
+.item img {
+
+    border-radius:40px;
+
+}
+.item p {
+
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    opacity:0;
+}
+
+.item:hover p {
+
+    opacity:1;
+
+}
+
+.item:hover img {
+
+opacity:0.33;
+
+}
+
+.description { 
+
+    padding:20px;
+
+}
+
+.welcome {
+
+    margin-top: 75;
+    
+    
+    border-radius: 50px;
+    background-color: #ffffff;
+    padding:20px;
+
+}
+
